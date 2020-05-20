@@ -28,9 +28,13 @@ class Starpolygon():
 
 mystars = []
 
+#creating a list of random stars
+
 for i in range(10):
     sp = Starpolygon(num_sides=random.randint(3,10), radius=1+random.random()*3)
     mystars.append(sp)
+
+#plotting
 
 plt.figure(figsize=(12,12))
 plt.axis('equal')

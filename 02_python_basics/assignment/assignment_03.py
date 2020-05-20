@@ -20,4 +20,35 @@ list_points =
 
 points = []
 
-### insert code here
+
+
+x_size = 4
+y_size = 4
+z_size = 4
+
+list_x = list(range(x_size))
+list_y = list(range(y_size))
+list_z = list(range(z_size))
+
+point_list = []
+
+for i in list_x:
+    for j in list_y:
+        for k in list_z:
+            if i == 0:
+                pass
+            elif j == 5:
+                pass
+            else:
+                point_list.append(i)
+                point_list.append(j)
+                point_list.append(k)
+
+formatted_list=[]
+
+i=0
+while i<len(point_list):
+  formatted_list.append(point_list[i:i+3])
+  i+=3
+
+print(formatted_list)

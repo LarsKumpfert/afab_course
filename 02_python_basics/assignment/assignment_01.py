@@ -4,4 +4,8 @@
 
 list_1 = [3, 13, 5, 89, 21]
 
-### insert code here
+total = 1
+for n in list_1:
+    total *= n
+
+print (total)

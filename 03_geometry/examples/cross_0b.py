@@ -6,3 +6,5 @@ v = Vector(0.0, 1.0, 0.0)
 uxv = u.cross(v)
 
 print(uxv)
+
+print (uxv.z)

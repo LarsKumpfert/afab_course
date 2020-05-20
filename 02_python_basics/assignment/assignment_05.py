@@ -34,17 +34,19 @@ for i in range(10):
 
 arealist = []
 for starpoly in morestars:
-    ### insert code here
+    get_area (morestars)
+    arealist.append (A)
 
-# sort the ares according to size
-areas_sorted = ### insert code here  
+print(arealist)
+
+areas_sorted = arealist.sort 
 print(areas_sorted)  
 
-# and choose the largest
-b = ### insert code here 
+
+b = areas_sorted [-1]
 print(b)
 
-index_max = ### insert code here 
+index_max = len(areas_sorted)
 star_with_max_area = morestars[index_max]
 print(star_with_max_area)
 

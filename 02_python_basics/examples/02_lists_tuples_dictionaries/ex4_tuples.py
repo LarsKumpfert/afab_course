@@ -8,4 +8,5 @@ print(my_tuple_1)
 print(my_tuple_1 + my_tuple_2)
 
 print(my_tuple_1[1])
-print(my_tuple_1[1:3])
+print(my_tuple_1[0:3])
+print(my_tuple_1[-1])

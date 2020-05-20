@@ -15,3 +15,8 @@ print(d_square % 4)
 print(d_square % 14)
 
 print(2 % 2)
+
+e=100
+f=4
+
+print(e/f)

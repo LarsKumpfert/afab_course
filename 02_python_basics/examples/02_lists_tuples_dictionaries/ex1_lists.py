@@ -5,8 +5,8 @@ mixed_list = ["strings", 5, 6, 6.7, True, "etc."]
 a = range(1,10)
 
 print(list(a))
-print(list(range(1,100,5)))
-print(list(range(100, -10, -20)))
+print(list(range(0,101,5)))
+print(list(range(100, -1, -20)))
 
 print(len(string_list))
 print(string_list + number_list)

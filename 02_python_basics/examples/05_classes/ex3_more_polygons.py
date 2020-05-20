@@ -26,11 +26,7 @@ class Starpolygon():
             ys.append(self.posy + self.radius * math.sin(i*a))
         plt.plot(xs,ys,c=self.color)
 
-morestars = []
-for i in range(300):
-    sp = Starpolygon(num_sides=random.randint(3,9), radius=0.1+random.random()*0.3)
-    sp.color = [sp.posx/10,0,sp.posy/10]
-    morestars.append(sp)
+
 
 plt.figure(figsize=(12,12))
 plt.axis('equal')
