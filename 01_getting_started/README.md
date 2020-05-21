@@ -1,5 +1,7 @@
 # Getting started
 
+[Slides](https://docs.google.com/presentation/d/1XW2h3WrHfVG4USUCjJp5Sgxk5VMwEWn4va1VxWz6eRc/edit?usp=sharing)
+
 ### 1. Setting up the Anaconda environment with COMPAS
 
 Execute the commands below in Anaconda Prompt:
@@ -75,11 +77,18 @@ And make all the projects accessible from Rhino (change to the respective reposi
 	
 <details>
 <summary>Problems?</summary>
-<br>
-You have to change to the respective repository directory in the Anaconda prompt to execute the invoke command:
+
+* If invoke is not recognized as command, first install it via pip:
 	
-	(afab) your_filepath_to_repository
-	(afab) invoke add-to-rhino
+		(afab) pip install invoke
+	
+
+* You have to change to the respective repository directory in the Anaconda prompt to execute the invoke command:
+	
+		(afab) cd your_filepath_to_repository
+		(afab) invoke add-to-rhino
+
+        
 	
 </details>
 	
@@ -91,7 +100,15 @@ Other dependencies
 	
 	(afab) conda install shapely
 
+<details>
+<summary>conda help</summary>
 
+Init conda for the powershell
+
+	(afab) conda init
+	(afab) conda init powershell
+	
+</details>
 
 
 
